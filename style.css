@@ -15,6 +15,9 @@
 
     /* border: solid #000 1px ; */
 }
-container .logo img{
+.container .logo_leo{
     width: 160px;
+    background-color: red;
+    border-radius: 20px;
+    border: solid #000 2px ;
 }
