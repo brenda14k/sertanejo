@@ -24,7 +24,7 @@
   height: 355px; /* Altura da imagem */
   background-color: red; /* Temporário, para visualização */
   margin-top: 0;  /* Ajuste para que comece do topo */
-  border-radius: 20px;
+  border-bottom: 20px;
   border: solid #000 2px;
 }
 
