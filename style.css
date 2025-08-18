@@ -19,7 +19,7 @@
     align-items: center; /* Alinha no centro vertical */
 }
 
-.foto_leo {
+.container .foto_leo {
     width: 200px;  /* Largura da caixa */
     height: 200px; /* Altura da caixa */
     background-color: red;
