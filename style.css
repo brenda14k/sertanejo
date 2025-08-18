@@ -20,11 +20,11 @@
 
 .foto_leo {
   width: 100%;  /* Ajuste para a largura da tela */
-  max-width: 1919px; /* Limita a largura máxima */
-  height: 355px; /* Altura da imagem */
-  background-color: red; /* Temporário, para visualização */
-  margin-top: 0;  /* Ajuste para que comece do topo */
-  border-bottom: 20px;
+  max-width: 1919px; 
+  height: 355px; 
+  background-color: red;
+  margin-top: 0;  
+  margin-bottom: 20px;
   border: solid #000 2px;
 }
 
