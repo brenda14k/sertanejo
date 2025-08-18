@@ -28,7 +28,7 @@
   border: solid #000 2px;
 }
 
-.bibliografio {
+.bibliografia p{
   width: 80%; /* Ajuste para o tamanho do texto, pode ser alterado conforme necessário */
   margin-top: 20px; /* Espaço entre a imagem e o texto */
   font-family: "Monsieur La Doulaise", cursive; /* Aplique a fonte no texto */
