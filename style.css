@@ -14,10 +14,12 @@
     margin: 0 auto;
     display: flex; 
     justify-content: center; /* Alinha no centro horizontal */
-    align-items: flex-start; /* Alinha ao topo */
+    align-items: center; /* Alinha ao topo */
 }
 
 .container .foto_leo {
+       align-items: flex-start; /* Alinha ao topo */
+
     background-color:red;
     width: 1919px;  /* Largura da caixa */
     height: 355px; /* Altura da caixa */
