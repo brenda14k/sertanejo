@@ -16,8 +16,10 @@
     /* border: solid #000 1px ; */
 }
 .container .foto_leo{
+   .container .foto_leo {
     width: 160px;
+    height: 160px;  /* Ajustei a altura para garantir que seja uma caixa */
     background-color: red;
     border-radius: 20px;
-    border: solid #000 2px ;
+    border: solid #000 2px;
 }
