@@ -47,7 +47,8 @@ height:100%
   border-radius: 15px;
   margin: 30px auto;
   padding: 20px;
-  width: 80%;
+ width: 600px; /* largura fixa menor */
+  max-width: 80%;
   text-align: center;
 }
 
@@ -108,5 +109,6 @@ height:100%
 .fotos:hover .f_text {
   transform: scale(1.05);
 }
+
 
 
