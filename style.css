@@ -33,7 +33,7 @@ height:100%
 }
 
 .foto_leo img {
-
+border radius
   width: 800px;
   height: auto;
   object-fit: cover;
@@ -112,6 +112,7 @@ height:100%
 .fotos:hover .f_text {
   transform: scale(1.05);
 }
+
 
 
 
