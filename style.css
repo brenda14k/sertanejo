@@ -65,7 +65,16 @@ height:100%
 
 /* Galeria de fotos do time */
 
-
+.fotos-container {
+    width: 423px;
+    height: 299px;
+    margin: 30px auto;
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 .fotos {
   position: relative;
   width: 350px;  /* Largura maior */
