@@ -58,21 +58,15 @@ body {
   margin: 30px auto;
 }
 
-/* Cada quadrado */
-.fotos {
-  position: relative;
-  width: 299px;   /* Tamanho fixo */
-  height: 423px;  /* Tamanho fixo */
-  background-color: aqua;
-  border: 2px solid #000;
-  border-radius: 15px;
-  overflow: hidden;
-}
+
 
 /* Imagens dentro dos quadrados */
 .fotos img {
-  width: 100%;
-  height: 100%;
+   border: 2px solid #000;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 299px;
+  height: 423px;
   display: block;
 }
 
@@ -93,6 +87,7 @@ body {
 .fotos:hover .f_text {
   transform: scale(1.3);
 }
+
 
 
 
