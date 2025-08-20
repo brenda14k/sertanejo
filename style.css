@@ -64,19 +64,12 @@ height:100%
 }
 
 /* Galeria de fotos do time */
-.fotos-container {
-  width: 1000px;
-  margin: 30px auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
+
 
 .fotos {
   position: relative;
-  width: 299px;
-  height: 423px;
+  width: 350px;  /* Largura maior */
+  height: 300px; /* Altura menor */
   border-radius: 15px;
   overflow: hidden;
   border: 2px solid #000;
@@ -89,6 +82,7 @@ height:100%
   display: block;
   border-radius: 15px;
 }
+
 
 /* Texto sobreposto na parte inferior da imagem */
 .f_text {
@@ -109,6 +103,7 @@ height:100%
 .fotos:hover .f_text {
   transform: scale(1.05);
 }
+
 
 
 
