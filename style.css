@@ -23,11 +23,9 @@ body {
 
 /* IMAGEM NO TOPO */
 .foto_leo img {
-  width: 100vw;              /* ocupa toda a largura da janela */
-  height: 50vh;              /* ocupa metade da altura da tela */
-  object-fit: cover;         /* cobre sem distorcer, pode cortar */
-  display: block;
-  border: none;              /* opcional: remove a borda preta */
+display: flex;
+    width: 100%;
+    overflow: hidden;        /* opcional: remove a borda preta */
 }
 
 /* BIOGRAFIA */
@@ -81,6 +79,7 @@ body {
   transform: scale(1.3); /* aumenta 30% */
          /* muda a cor para mais contraste */
 }
+
 
 
 
