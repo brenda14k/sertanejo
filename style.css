@@ -16,7 +16,7 @@ body {
 .container {
   background-color: #681313;
   width: 100%;
-  max-width:100%;
+height:100%
   margin: 0 auto;
 }
 
@@ -108,4 +108,5 @@ body {
 .fotos:hover .f_text {
   transform: scale(1.05);
 }
+
 
