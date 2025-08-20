@@ -60,6 +60,13 @@ body {
 }
 
 
+.fotos {
+  position: relative; /* Adicionado */
+  width: 299px;
+  height: 423px;
+  overflow: hidden;
+  border-radius: 15px;
+}
 
 /* Imagens dentro dos quadrados */
 .fotos img {
@@ -85,9 +92,10 @@ body {
   transition: all 0.5s ease;
 }
 
-.fotos-container:hover .f_text {
+.fotos:hover .f_text {
   transform: scale(1.3);
 }
+
 
 
 
