@@ -14,31 +14,36 @@ body {
 
 /* Container geral da página */
 .container {
-  background-color: #681313;
+background-color: #681313;
   width: 100%;
-height:100%
-  margin: 0 auto;
+  min-height: 100vh; /* garante que o container cubra a tela inteira */
+  padding-bottom: 30px; /* espaço extra no final */
+
+
+  
 }
 
 /* Imagem principal do Leo */
 .container_foto_leo {
-  border: 2px solid black;
+  
   width: 100%;
-  max-height: 90vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  
   overflow: hidden;
 }
 
 .foto_leo img {
-border radius
+margin-top: 60px;
+  border: 2px solid black;
+border-radius: 20px;
   width: 800px;
   height: auto;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 /* Biografia */
@@ -47,7 +52,7 @@ border radius
   border-radius: 15px;
   margin: 30px auto;
   padding: 20px;
- width: 900px; /* largura fixa menor */
+ width: 900px; 
   max-width: 80%;
   text-align: center;
 }
@@ -63,33 +68,38 @@ border radius
   text-align: justify;
 }
 
-/* Galeria de fotos do time */
 
+
+/* Galeria de fotos do time */
 .fotos-container {
-    width: 423px;
-    height: 299px;
-    margin: 30px auto;
-    display: flex
-;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  width: calc(3 * 423px + 2 * 20px);  /*3 fotos + 2 espaçamentos de 20px */
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             /* espaçamento entre as fotos */
+  justify-content: center;
 }
+
 .fotos {
+  width: 423px;          /* largura fixa */
+  height: 299px;         /* altura fixa */
   position: relative;
-  width: 350px;  /* Largura maior */
-  height: 300px; /* Altura menor */
   border-radius: 15px;
   overflow: hidden;
   border: 2px solid #000;
+ 
+
 }
 
 .fotos img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover;     
   display: block;
   border-radius: 15px;
+  image-rendering: auto; /* mantém a nitidez */
+  
+ 
 }
 
 
@@ -114,9 +124,12 @@ border radius
 }
 
 
+/* 
+image-rendering é uma propriedade do CSS que redesenha a imagem quando ela não está em seu tamanho original. 
+Ela reestrutura a imagem de acordo com a largura definida. 
 
-
-
-
+Nesse código,isso foi necessário porque eu queria colocar três fotos uma ao lado da outra e,
+ por causa da largura, não conseguiria fazer sem perder a nitidez da imagem. 
+*/
 
 
